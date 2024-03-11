@@ -1,4 +1,5 @@
 body {
  background-image: url("/pics/Background.png");
  background-color: #cccccc;
+ background-size: 100% 100%;
 }
