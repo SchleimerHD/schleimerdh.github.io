@@ -1,6 +1,37 @@
 body {
-    background-image: url("../images/background.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
+    background: #091f00
+}
+
+.tree {
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tree .links {
+    position: absolute;
+    text-align: center;
+}
+
+.tree .links a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.tree .links a h2 {
+    padding: 1rem;
+    background: black;
+    border-radius: 1rem;
+    margin: -0.3rem;
+}
+
+.tree .links a h2:hover {
+    color: black;
+    background: white;
 }
